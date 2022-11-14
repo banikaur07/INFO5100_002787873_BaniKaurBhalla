@@ -47,7 +47,7 @@ public class Laptop {
     /*
      * Method to print Size
      */
-    public void PrintSize() {
+    public void printSize() {
         System.out.println("My size is: " + this.size);
     }
 }

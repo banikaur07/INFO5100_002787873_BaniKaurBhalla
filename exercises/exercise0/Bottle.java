@@ -33,7 +33,7 @@ public class Bottle {
     /*
      * Method to print Brand
      */
-    public void PrintBrand() {
+    public void printBrand() {
         System.out.println("My brand is: " + this.brand);
     }
  

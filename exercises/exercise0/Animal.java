@@ -13,9 +13,9 @@ public class Animal {
          * Method to print all attributes
          */
         public void printAll() {
-            PrintType();
-            PrintName();
-            PrintColor();
+            printType();
+            printName();
+            printColor();
         }
     }
 
@@ -58,21 +58,21 @@ public class Animal {
     /*
      * Method to print Name
      */
-    public void PrintName() {
+    public void printName() {
         System.out.println("My name is: " + this.name);
     }
 
     /*
      * Method to print Type
      */
-    public void PrintType() {
+    public void printType() {
         System.out.println("My type is: " + this.type);
     }
 
     /*
      * Method to print Color
      */
-    public void PrintColor() {
+    public void printColor() {
         System.out.println("My color is: " + this.color);
     }
 
