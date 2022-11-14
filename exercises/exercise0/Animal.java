@@ -82,4 +82,5 @@ public class Animal {
     public String getFoodDetails() {
         return this.food;
     }
+
 }
