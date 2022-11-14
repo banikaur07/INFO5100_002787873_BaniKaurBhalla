@@ -31,21 +31,21 @@ public class Chair {
 
     /*
      * Method to print Height
-     */    public void PrintHeight() {
+     */    public void printHeight() {
         System.out.println("My height is: " + this.height);
     }
 
     /*
      * Method to print Width
      */
-    public void PrintWidth() {
+    public void printWidth() {
         System.out.println("My width is: " + this.width);
     }
 
     /*
      * Method to print Price
      */
-    public void PrintPrice() {
+    public void printPrice() {
         System.out.println("My price is: " + this.price);
     }
     

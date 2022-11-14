@@ -5,7 +5,10 @@ import java.util.*;
 public class Session {
     public List<FullTime> fullTimeStudentList;
     public List<PartTime> partTimeStudentList;
-
+    
+    /*
+     * Constructor
+     */
     public Session(List<FullTime> fullTimeStudentList, List<PartTime> partTimeStudentList) {
         this.fullTimeStudentList = fullTimeStudentList;
         this.partTimeStudentList = partTimeStudentList;

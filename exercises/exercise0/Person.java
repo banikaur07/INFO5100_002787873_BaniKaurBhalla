@@ -32,21 +32,21 @@ public class Person {
     /*
      * Method to print Height
      */
-    public void PrintHeight() {
+    public void printHeight() {
         System.out.println("My height is: " + this.height);
     }
 
     /*
      * Method to print Gender
      */
-    public void PrintGender() {
+    public void printGender() {
         System.out.println("My gender is: " + this.gender);
     }
 
     /*
      * Method to print Weight
      */
-    public void PrintWeight() {
+    public void printWeight() {
         System.out.println("My weight is: " + this.weight);
     }
 }

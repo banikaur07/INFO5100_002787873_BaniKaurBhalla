@@ -1,23 +1,31 @@
 package exercises.exercise2;
 
-public class Square extends Shape {
+import java.io.Serializable;
+
+/*
+ * Class Square
+ */
+public class Square extends Shape implements Serializable {
     public static String className = "Square";
     public static String color = "pink";
     
     public int side;
 
+    /*
+     * Constructor
+     */
     public Square (int side){
         this.side = side;
     }
 
     @Override
-    void calculateArea() {
+    public void calculateArea() {
         int area = side * side;
         System.out.println ("Area of the Square is: " + area);
     }
 
     @Override
-    void calculatePerimeter() {
+    public void calculatePerimeter() {
         int perimeter = 4 * side;
         System.out.println ("Perimeter of the Square is: " + perimeter);  
     }

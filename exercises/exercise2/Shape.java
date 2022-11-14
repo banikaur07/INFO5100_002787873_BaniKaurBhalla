@@ -1,11 +1,23 @@
 package exercises.exercise2;
 
-public abstract class Shape {
+import java.io.Serializable;
+
+/*
+ * Abstract Class Shape
+ */
+public abstract class Shape implements Serializable {
     public static String className = "Shape";
 
-    abstract void calculateArea(); 
-    abstract void calculatePerimeter();
-    
+    /*
+     * abstract method to calculate area
+     */
+    abstract public void calculateArea(); 
+
+    /*
+     * abstract method to calculate perimeter
+     */
+    abstract public void calculatePerimeter();
+
 }
 
 

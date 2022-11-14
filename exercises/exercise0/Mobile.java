@@ -31,21 +31,21 @@ public class Mobile {
 
     /*
      * Method to print Height
-     */    public void PrintHeight() {
+     */    public void printHeight() {
         System.out.println("My height is: " + this.height);
     }
 
     /*
      * Method to print Memory
      */
-    public void PrintMemory() {
+    public void printMemory() {
         System.out.println("My memory is: " + this.memory);
     }
 
     /*
      * Method to print Size
      */
-    public void PrintSize() {
+    public void printSize() {
         System.out.println("My size is: " + this.size);
     }
     

@@ -31,21 +31,21 @@ public class Tshirt {
 
     /*
      * Method to print Color
-     */    public void PrintColor() {
+     */    public void printColor() {
         System.out.println("My color is: " + this.color);
     }
 
     /*
      * Method to print Comfort
      */
-    public void PrintComfort() {
+    public void printComfort() {
         System.out.println("My comfort is: " + this.comfort);
     }
 
     /*
      * Method to print Price
      */
-    public void PrintPrice() {
+    public void printPrice() {
         System.out.println("My price is: " + this.price);
     }
 }

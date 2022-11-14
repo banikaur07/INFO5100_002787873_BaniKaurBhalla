@@ -32,21 +32,21 @@ public class Table {
     /*
      * Method to print Brand
      */
-    public void PrintBrand() {
+    public void printBrand() {
         System.out.println("My brand is: " + this.brand);
     }
  
     /*
      * Method to print Area
      */
-    public void PrintArea() {
+    public void printArea() {
         System.out.println("My area is: " + this.area);
     }
 
     /*
      * Method to print Color
      */
-    public void PrintColor() {
+    public void printColor() {
         System.out.println("My color is: " + this.color);
     }
     

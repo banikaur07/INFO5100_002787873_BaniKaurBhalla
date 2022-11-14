@@ -40,7 +40,7 @@ public class Bottle {
     /*
      * Method to print Color
      */
-    public void PrintColor() {
+    public void printColor() {
         System.out.println("My color is: " + this.color);
     }
 
