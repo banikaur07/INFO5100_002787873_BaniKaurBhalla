@@ -1,10 +1,11 @@
-package exercises.exercise2;
+package exercises.exercise3b;
 
+import java.io.Serializable;
 
 /*
  * Class Square
  */
-public class Square extends Shape {
+public class Square extends Shape implements Serializable {
     public static String className = "Square";
     public static String color = "pink";
     

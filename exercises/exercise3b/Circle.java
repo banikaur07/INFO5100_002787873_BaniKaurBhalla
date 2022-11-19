@@ -1,11 +1,12 @@
-package exercises.exercise2;
+package exercises.exercise3b;
 
+import java.io.Serializable;
 import java.lang.Math;
 
 /*
  * class Circle
  */
-public class Circle extends Shape {
+public class Circle extends Shape implements Serializable {
     public static String className = "Circle";
     public static String color = "red";
 

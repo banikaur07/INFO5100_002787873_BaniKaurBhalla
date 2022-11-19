@@ -1,9 +1,11 @@
-package exercises.exercise2;
+package exercises.exercise3b;
+
+import java.io.Serializable;
 
 /*
  * Class Triangle
  */
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Serializable{
     public static String className = "Triangle";
     public static String color = "purple";
 

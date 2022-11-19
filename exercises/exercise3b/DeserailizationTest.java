@@ -3,8 +3,6 @@ package exercises.exercise3b;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 
-import exercises.exercise2.*;
-
 public class DeserailizationTest {
     public static void main(String[] args) {
         try {

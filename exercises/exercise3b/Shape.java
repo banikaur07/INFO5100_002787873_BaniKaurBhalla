@@ -1,9 +1,11 @@
-package exercises.exercise2;
+package exercises.exercise3b;
+
+import java.io.Serializable;
 
 /*
  * Abstract Class Shape
  */
-public abstract class Shape {
+public abstract class Shape implements Serializable {
     public static String className = "Shape";
 
     /*

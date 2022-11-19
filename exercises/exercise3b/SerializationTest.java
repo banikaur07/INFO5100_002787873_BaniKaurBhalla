@@ -3,10 +3,6 @@ package exercises.exercise3b;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
-import exercises.exercise2.Circle;
-import exercises.exercise2.*;
-
-
 public class SerializationTest {
     public static void main(String[] args) {
 
