@@ -46,7 +46,7 @@ public class Main extends Application {
         layout.getChildren().addAll(headingLabel, uploadButton, filterButton);
 
         // Scene
-        Scene scene = new Scene(layout, 5000, 5000);
+        Scene scene = new Scene(layout, 800, 800);
         mainScreenStage.setScene(scene);
         mainScreenStage.setTitle("INFO 5100: Image Management Tool");
 

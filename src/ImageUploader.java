@@ -52,7 +52,7 @@ public class ImageUploader implements EventHandler<ActionEvent> {
         uploadImageLayout.getChildren().addAll(uploadImagelabel, uploadImageHbox);
 
         // Upload Image Screen Scene
-        uploadImageScreenScene = new Scene(uploadImageLayout, 5000, 5000);
+        uploadImageScreenScene = new Scene(uploadImageLayout, 800, 800);
     }
 
     @Override

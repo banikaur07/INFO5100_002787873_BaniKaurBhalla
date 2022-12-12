@@ -54,7 +54,7 @@ public class ImageFilters implements EventHandler<ActionEvent> {
         filterImageLayout.getChildren().addAll(filterImageLabel, goBackButton);
 
         // Initialize currentFiltersScene
-        filterScreenScene = new Scene(filterImageLayout, 5000, 5000);
+        filterScreenScene = new Scene(filterImageLayout, 800, 800);
     }
 
     @Override
