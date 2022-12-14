@@ -16,7 +16,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Class to showcase all basic operations of a caculator
+ * Class to showcase all basic operations of a calculator
  */
 public class Calculator extends Application {
   private static final String[][] calculatorButtons = {
